@@ -19,5 +19,9 @@ def parity_check():
 def death_code():
   return 'this is pascal'
 
+app.route('/index')
+def pascal():
+  return "very strange things"
+
 if __name__ == '__main__':
   app.run(debug=True)
