@@ -19,7 +19,7 @@ def parity_check():
 def death_code():
   return 'this is pascal'
 
-app.route('/index')
+app.route('/index_strange')
 def pascal():
   return "very strange things"
 
