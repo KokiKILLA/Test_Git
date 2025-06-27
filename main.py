@@ -15,5 +15,9 @@ def parity_check():
   else:
     return "нечет"
 
+@app.route('/index')
+def death_code():
+  return 'this is pascal'
+
 if __name__ == '__main__':
   app.run(debug=True)
